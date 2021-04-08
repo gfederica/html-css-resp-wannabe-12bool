@@ -1,9 +1,33 @@
-img {
-  height: 200px;
+body {
+  font-family: 'Roboto Slab', serif;
 }
 
 @media screen and (max-width: 767px) {
-  
+  h1 {
+    margin: 20px auto;
+  }
+  .wrap-background-xs {
+    background-color: #F2F2CD;
+  }
+  img:not(.why img) {
+    height: 120px;
+  }
+  .why img {
+    height: 140px;
+    margin-top: 30px;
+    background-color: #428BCA;
+    border-radius: 50%;
+    padding: 30px;
+  }
+  #where .col-xs-12,
+  #how .col-xs-12,
+  #why .col-xs-12 {
+    margin: 12px auto;
+  }
+  .why {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -11,10 +35,17 @@ img {
 }
 
 @media screen and (min-width: 992px) {
+  h1 {
+    margin: 20px auto;
+  }
+
+  img {
+    height: 200px;
+  }
+
   #first-claim {
     margin-top: 100px;
   }
-
   #where {
     margin-top: 20px;
     margin-bottom: 100px;
@@ -22,13 +53,16 @@ img {
   #how {
     margin-bottom: 100px;
   }
+
   .wrap-background {
     background-color: #F9F9F9;
   }
+
   .why {
     padding-bottom: 10px;
     border-bottom: 1px solid black;
   }
+
   .why img {
     height: 240px;
     margin-top: 60px;
@@ -36,6 +70,7 @@ img {
     border-radius: 50%;
     padding: 40px;
   }
+
   .why h3,
   .why p {
     padding-top: 20px;
