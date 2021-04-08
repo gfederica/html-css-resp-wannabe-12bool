@@ -1,3 +1,43 @@
 img {
   height: 200px;
 }
+
+@media screen and (max-width: 767px) {
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+@media screen and (min-width: 992px) {
+  #first-claim {
+    margin-top: 100px;
+  }
+
+  #where {
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  #how {
+    margin-bottom: 100px;
+  }
+  .wrap-background {
+    background-color: #F9F9F9;
+  }
+  .why {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
+  .why img {
+    height: 240px;
+    margin-top: 60px;
+    background-color: #428BCA;
+    border-radius: 50%;
+    padding: 40px;
+  }
+  .why h3,
+  .why p {
+    padding-top: 20px;
+  }
+}
